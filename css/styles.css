@@ -1,3 +1,100 @@
-.footer {
-    background-color: #2E2F42;
+body {
+    font-family: "Roboto";
+    font-size: "16px";
+    font-weight: "Regular Size";
+    line-height: 24px;
 }
+.navigation{
+    color: #2E2F42; 
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    text-align: left;
+}
+.navigation:hover,
+.navigation:focus {
+    color: #4D5AE5;
+    text-decoration: underline;
+}
+.contact {
+    color: #2E2F42;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    text-align: left;
+}
+.contact:hover,
+.contact:hover {
+    color: #4D5AE5;
+}
+.call {
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02px;
+text-align: left;
+}
+h3 {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    text-align: left;
+}
+p {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02px;
+    text-align: left;
+}
+.link {
+    color: #4D5AE5;
+    background-color: #E7E9FC;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04px;
+    text-align: center;
+}
+.link:hover,
+.link:focus {
+    color: #FFFFFF; 
+    background-color: #404BBF;
+}
+.pictures {
+width: 360px;
+height: 420px;
+top: 288px; 
+left: 156px; 
+padding: 0px 0px 32px 0px;
+border: 1px;
+}
+.footer {
+background-color: #2E2F42;
+width: 1440px;
+height: 312px;
+top: 1764px;
+}
+.text-fotter {
+font-family: "Roboto";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02px;
+text-align: left;
+width: 264px;
+height: 72px;
+top: 1904px;
+left: 156px;
+color: #F4F4FD;
+}
+

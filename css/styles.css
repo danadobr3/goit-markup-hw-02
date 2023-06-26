@@ -41,6 +41,7 @@ letter-spacing: 0.02px;
 text-align: left;
 }
 h3 {
+    color: #2E2F42;
     font-family: "Roboto";
     font-size: 20px;
     font-weight: 500;
@@ -49,6 +50,7 @@ h3 {
     text-align: left;
 }
 p {
+    color: #434455;
     font-family: "Roboto";
     font-size: 16px;
     font-weight: 400;
@@ -74,6 +76,12 @@ p {
 .button-main {
     color: #FFFFFF;
     background-color: #4D5AE5;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: left;
 }
 .button-main:hover,
 .button-main:focus {
@@ -109,4 +117,40 @@ color: #F4F4FD;
 }
 .highlight {
     color: #4D5AE5;
+}
+.background {
+    background-color: #2E2F42;
+}
+.text-main {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+.text-two {
+    color: #2E2F42;
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+.pictures-first {
+    background-color: #E7E9FC;
+}
+.background-two {
+background-color: #FFFFFF;
+}
+.background-three {
+background-color: #F4F4FD;
+}
+.cards {
+    background-color: #FFFFFF;
+}
+.topline {
+    background-color: #E7E9FC;
 }

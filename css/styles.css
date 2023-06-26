@@ -1,3 +1,4 @@
+
 body {
     font-family: "Roboto";
     font-size: "16px";
@@ -70,6 +71,15 @@ p {
     color: #FFFFFF; 
     background-color: #404BBF;
 }
+.button-main {
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+.button-main:hover,
+.button-main:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
 .pictures {
 width: 360px;
 height: 420px;
@@ -97,4 +107,6 @@ top: 1904px;
 left: 156px;
 color: #F4F4FD;
 }
-
+.highlight {
+    color: #4D5AE5;
+}

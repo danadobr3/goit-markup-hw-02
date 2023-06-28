@@ -17,7 +17,7 @@ body {
     line-height: 1.5;
 }
 .link {
-    color: var(--normal);
+    color: var(--paragraphs);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -155,6 +155,7 @@ background-color: var(--background);
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
 }
 .studio {
 color: var(--background);

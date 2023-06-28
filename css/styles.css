@@ -16,6 +16,9 @@ body {
     line-height: 1.5;
 }
 .link {
+    text-decoration: none;
+}
+.nav .link {
     color: var(--normal);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -26,11 +29,11 @@ body {
     text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
+.nav .link:hover,
+.nav .link:focus {
     color: var(--active);
 }
-.address .link {
+.address link {
     color: var(--paragraphs);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -107,7 +110,7 @@ text-align: left;
 
 color: var(--background);
 }
-.logo link {
+.logo .link {
 font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -152,7 +155,7 @@ background-color: var(--white);
 .background-three {
 background-color: var(--background);
 }
-.cards link {
+.cards {
     background-color: var(--white);
     text-decoration: none;
 }

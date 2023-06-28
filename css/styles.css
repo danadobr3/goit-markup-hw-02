@@ -16,6 +16,21 @@ body {
     line-height: 1.5;
 }
 .link {
+    color: var(--normal);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--active);
+}
+.link-address {
     color: var(--paragraphs);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -25,8 +40,8 @@ body {
     text-align: left;
     text-decoration: none;
 }
-.link:hover,
-.link:focus {
+.link-address:hover,
+.link-address:focus {
     color: var(--active);
 }
 .name {
@@ -92,7 +107,7 @@ text-align: left;
 
 color: var(--background);
 }
-.logo {
+.logo link {
 font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -137,8 +152,9 @@ background-color: var(--white);
 .background-three {
 background-color: var(--background);
 }
-.cards {
+.cards link {
     background-color: var(--white);
+    text-decoration: none;
 }
 .topline {
     background-color: var(--button-navigation);

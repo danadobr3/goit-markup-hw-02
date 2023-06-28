@@ -30,7 +30,7 @@ body {
 .link:focus {
     color: var(--active);
 }
-.link-address {
+.address .link {
     color: var(--paragraphs);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -40,8 +40,8 @@ body {
     text-align: left;
     text-decoration: none;
 }
-.link-address:hover,
-.link-address:focus {
+.address .link:hover,
+.address .link:focus {
     color: var(--active);
 }
 .name {

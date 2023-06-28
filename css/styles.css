@@ -1,14 +1,23 @@
+:root {
+--active: #404BBF;
+--normal: #2E2F42;
+--button: #4D5AE5;
+--button-navigation: #E7E9FC;
+--white: #FFFFFF;
+--paragraphs: #434455;
+--background: #F4F4FD;
+}
 
 body {
-    color: #434455;
-    background-color: #FFFFFF;
+    color: var(--paragraphs);
+    background-color: var(--white);
     font-family: "Roboto", sans-serif;
     font-size: "16px";
     font-weight: "Regular Size";
     line-height: 1.5;
 }
 .navigation{
-    color: #2E2F42; 
+    color:var(--normal); 
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -18,11 +27,11 @@ body {
 }
 .navigation:hover,
 .navigation:focus {
-    color: #4D5AE5;
+    color: var(--button);
     text-decoration: underline;
 }
 .contact {
-    color: #434455;
+    color: var(--paragraphs);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -32,23 +41,10 @@ body {
 }
 .contact:hover,
 .contact:focus {
-    color: #404bbf;
-}
-.call {
-color: #434455;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: left;
-}
-.call:hover,
-.ccall:focus {
-    color: #404bbf;
+    color: var(--active);
 }
 h3 {
-    color: #2E2F42;
+    color: var(--normal);
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     font-weight: 500;
@@ -57,7 +53,7 @@ h3 {
     text-align: left;
 }
 p {
-    color: #434455;
+    color: var(--paragraphs);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -66,7 +62,7 @@ p {
     text-align: left;
 }
 .link {
-    color: #4D5AE5;
+    color: var(--button);
     background-color: #E7E9FC;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -78,12 +74,12 @@ p {
 }
 .link:hover,
 .link:focus {
-    color: #FFFFFF; 
-    background-color: #404BBF;
+    color: var(--white); 
+    background-color: var(--active);
 }
 .button-main {
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    color: var(--white);
+    background-color: var(--button);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -93,17 +89,11 @@ p {
 }
 .button-main:hover,
 .button-main:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
-}
-.pictures {
-top: 288px; 
-left: 156px; 
-padding: 0px 0px 32px 0px;
-border: 1px;
+    color: var(--white);
+    background-color: var(--active);
 }
 .footer {
-background-color: #2E2F42;
+background-color:var(--normal);
 top: 1764px;
 }
 .text-fotter {
@@ -113,12 +103,10 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
-top: 1904px;
-left: 156px;
-color: #F4F4FD;
+
+color: var(--background);
 }
-.highlight-one {
-color: #4D5AE5;
+.logo {
 font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -128,20 +116,17 @@ font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     text-decoration: none;
 }
-.highlight-two {
-    color: #2E2F42;
-    font-family: "Raleway", sans-serif;
-        font-size: 18px;
-        font-weight: 800;
-        line-height: 21px;
-        letter-spacing: 0.03em;
-        text-align: left;
+.part-first {
+    color: var(--button);
+}
+.part-second {
+    color: var(--normal);
 }
 .background {
-    background-color: #2E2F42;
+    background-color: var(--normal);
 }
 .text-main {
-    color: #FFFFFF;
+    color: var(--white);
     font-family: "Roboto", sans-serif;
     font-size: 56px;
     font-weight: 700;
@@ -150,7 +135,7 @@ font-family: "Raleway", sans-serif;
     text-align: center;
 }
 .text-two {
-    color: #2E2F42;
+    color: var(--normal);
         font-family: "Roboto", sans-serif;
         font-size: 36px;
         font-weight: 700;
@@ -159,25 +144,25 @@ font-family: "Raleway", sans-serif;
         text-align: center;
 }
 .pictures-first {
-    background-color: #E7E9FC;
+    background-color: var(--button-navigation);
 }
 .background-two {
-background-color: #FFFFFF;
+background-color: var(--white);
 }
 .background-three {
-background-color: #F4F4FD;
+background-color: var(--background);
 }
 .cards {
-    background-color: #FFFFFF;
+    background-color: var(--white);
 }
 .topline {
-    background-color: #E7E9FC;
+    background-color: var(--button-navigation);
 }
 .address {
     font-style: normal;
 }
 h2 {
-    color: #2E2F42;
+    color: var(--normal);
         font-family: "Roboto", sans-serif;
         font-size: 36px;
         font-weight: 700;
@@ -185,22 +170,9 @@ h2 {
         letter-spacing: 0.02em;
         text-align: center;
 }
-.accent {
-    color: #4D5AE5;
-font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: left;
-    text-transform: uppercase;
+.part-one {
+    color: var(--button);
 }
-.accent-two {
-font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-align: left;
-    text-transform: uppercase;
+.part-two {
+color: var(--background);
 }

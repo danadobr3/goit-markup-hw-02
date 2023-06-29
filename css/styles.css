@@ -26,7 +26,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    /*text-decoration: none;*/
 }
 
 .nav.link:hover,
@@ -163,7 +162,7 @@ background-color: var(--background);
     background-color: var(--button-navigation);
 }
 .address {
-    font-style: normal;
+    font-style: none;
 }
 .name-three {
     color: var(--normal);
@@ -179,6 +178,9 @@ background-color: var(--background);
 color: var(--background);
 }
 .list {
+    list-style: normal;
+}
+.list.address{
     list-style: none;
 }
 .name-portfolio {

@@ -180,9 +180,6 @@ color: var(--background);
 .list {
     list-style: normal;
 }
-.list.address{
-    list-style: none;
-}
 .name-portfolio {
     color: var(--normal);
     font-family: "Roboto", sans-serif;
